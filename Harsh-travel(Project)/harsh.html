@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harsh travels</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url('img/pexels-freestockpro-1008155.jpg');
+        height: 3400px;
+
+    }
+
+    .left {
+
+        display: inline-block;
+        position: absolute;
+        left: 35px;
+        top: 1px;
+    }
+
+    .left img {
+
+        width: 80px;
+    }
+
+    .left div {
+        text-align: center;
+    }
+
+    .mid {
+        display: block;
+        width: 40%;
+
+        margin: 1px auto;
+
+    }
+
+    .right {
+
+        display: inline-block;
+        position: absolute;
+        right: 10px;
+        top: 1px;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 30px;
+    }
+
+    .navbar li a {
+        text-decoration: none;
+        color: black;
+        padding: 20px;
+
+    }
+
+    .navbar li a:hover {
+        text-decoration: underline;
+        color: red;
+        padding: 25px;
+
+    }
+
+    .btn {
+        cursor: pointer;
+        padding: 10px;
+        margin: 12px;
+        background-color: black;
+        color: white;
+        border: 2px solid gray;
+        border-radius: 8px;
+    }
+
+    .btn:hover {
+        background-color: rgb(83, 80, 80);
+    }
+
+    .container {
+        border: 5px solid black;
+        margin: 152px 140px;
+        padding: 3px 36px;
+        width: 30%;
+        border-radius: 15px;
+    }
+
+    .gog {
+        text-align: center;
+    }
+
+    .form-group input {
+        margin: 2px 99px;
+        padding: 6px 27px;
+        background-color: black;
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        width: 190px;
+        border-radius: 8px;
+
+        text-align: center;
+    }
+
+    .container button {
+        margin: 8px 122px;
+        padding: 13px 27px;
+        text-align: center;
+        background-color: black;
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        width: 190px;
+
+    }
+
+    .gog {
+        text-size-adjust: 54px;
+    }
+
+    .disclamer {
+        border: 2px solid red;
+        padding: 23px;
+        margin: 10px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    }
+
+    .topic {
+        text-align: center;
+        font-size: 33px;
+        font-style: oblique;
+        color: brown;
+    }
+</style>
+
+<body>
+    <header class="header">
+
+        <div class="left">
+
+            <img src="img/fire-303309_1280.png" alt="">
+            <div>Harsh travels</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Info</a></li>
+
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call us</button>
+            <button class="btn">E-mail us</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1 class="gog">Welcome to Harsh travels</h1>
+        <form action="backend.php">
+            <div class="form-group">
+                <input type="text" name="myName" placeholder="Enter your Full name">
+            </div>
+
+            <div class="form-group">
+                <input type="number" name="myMobileNumber" placeholder="Enter your Mobile number">
+            </div>
+
+            <div class="form-group">
+                <input type="number" name="totalPassenger" placeholder="How many Passenger">
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="myfrom" placeholder="From">
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="myTo" placeholder="To">
+            </div>
+            <button class="btn">Submit</button>
+
+
+        </form>
+    </div>
+
+    <div class="disclamer">
+        <div class="topic">
+            <p>Disclamer</p>
+        </div>
+        <p class="info">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel beatae sequi dignissimos vitae est
+            rerum cupiditate obcaecati quos voluptas neque odio debitis, maiores quam numquam ullam excepturi animi.
+            Aperiam quis, possimus modi laborum et dignissimos alias repudiandae totam hic. Officia aliquam doloribus
+            harum mollitia.</p>
+    </div>
+
+</body>
+
+</html>
